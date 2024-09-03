@@ -15,7 +15,7 @@ class TutorialRoutes {
         // Create a new Tutorial
         this.router.post("/", this.controller.create);
         // Retrieve all Tutorials
-        this.router.get("/", this.controller.findAll);
+        this.router.get("/", this.controller.create);
         // Retrieve a single Tutorial with id
         this.router.get("/:id", this.controller.findOne);
         // Update a Tutorial with id

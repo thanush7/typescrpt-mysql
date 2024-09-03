@@ -13,7 +13,7 @@ class Server {
     }
     config(app) {
         const corsOptions = {
-            origin: "http://localhost:8081"
+            origin: "http://localhost:8080"
         };
         app.use((0, cors_1.default)(corsOptions));
         app.use(express_1.default.json());
